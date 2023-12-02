@@ -5,19 +5,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.time.Duration;
 import java.util.List;
 
-public class IframeUtilities {
+public class YardimciMetotlar {
 
-    public static int getIframeCount(WebDriver driver) {
-
+    public static int iframeSayisiBul(WebDriver driver) {
         return driver.findElements(By.tagName("iframe")).size();
     }
 
-    public static int getIframeIndex(WebDriver driver, String iframeSrc) {
-        int index = 1;
+    public static int iframeIndexiBul(WebDriver driver, String iframeSrc) {
+        int index = 0;
         List<WebElement> iframeElementLeri = driver.findElements(By.tagName("iframe"));
         for (WebElement each : iframeElementLeri) {
             if (each.getAttribute("src").contains(iframeSrc)) {
@@ -25,24 +25,24 @@ public class IframeUtilities {
             }
             index++;
         }
-
-        return -1; // Eğer iframe bulunamazsa -1 döndürülür
+        return -1;
     }
 
-    public static void clickPlayButtonInIframe(WebDriver driver, String iframeSrc, String playButtonLocator) {
-        int iframeIndex = getIframeIndex(driver, iframeSrc);
+    public static void clickYap(WebDriver driver, String arananIframeSrc, String playButtonLocater) {
+        int iframinIndexi = iframeIndexiBul(driver, arananIframeSrc);
 
-        if (iframeIndex != -1) {
-            driver.switchTo().frame(iframeIndex - 1); // Sıra 1'den başladığı için -1 çıkarılır
+        if (iframinIndexi != -1) {
+            driver.switchTo().frame(iframinIndexi); // Sıra 1'den başladığı için -1 çıkarılır
 
             // Bekleme ekleyin
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-            WebElement playButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(playButtonLocator)));
+            WebElement clickButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(playButtonLocater)));
 
-            playButton.click();
+            clickButton.click();
             driver.switchTo().defaultContent();
         } else {
             System.out.println("Belirtilen src değerine sahip iframe bulunamadı.");
         }
     }
+
 }

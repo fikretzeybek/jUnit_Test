@@ -39,6 +39,10 @@ public class F03_T extends TestBase {
         ReusableMethods.bekle(2);
         //5) ilk iframe'den çıkıp ana sayfaya dönünüz
         driver.switchTo().defaultContent();
+        ReusableMethods.bekle(2);
+        driver.switchTo().frame(1); // İkinci iframe'a geçiş yap
+        WebElement linkElement = driver.findElement(By.xpath("//a[contains(@href,'guru99.com')]"));
+        linkElement.click();
 
         ReusableMethods.bekle(5);
     }

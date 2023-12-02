@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.ReusableMethods;
 import utilities.TestBase;
+import utilities.YardimciMetotlar;
 
 public class F_S118 extends TestBase {
 
@@ -33,6 +34,8 @@ public class F_S118 extends TestBase {
         System.out.println(textElementi.getText());
 
         // Text Box’a “Merhaba Dunya!” yazin.
+        int iframeSayisi = YardimciMetotlar.iframeSayisiBul(driver);
+        System.out.println("Sayfadaki iframe sayisi : " + iframeSayisi);
         WebElement iframe = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
         driver.switchTo().frame(iframe); // iframe gecis
 
