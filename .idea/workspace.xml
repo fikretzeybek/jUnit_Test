@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fd4c330-443d-48d1-8ba2-a23105469b9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F03_T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F03_T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S119.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/TestIframeUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/TestIframeUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryTestingTestleri/F01_TryTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryTestingTestleri/F01_TryTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/IframeUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/IframeUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -54,12 +50,20 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Z€YB/IdeaProjects/com.AE_TestCase&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.F01_TryTesting">
-    <configuration name="F01_TryTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.AE_TestCase" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests.T127_SlaytTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.To_Webtable">
+    <configuration name="Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.TryTestingTestleri.*" />
@@ -67,14 +71,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.F01_TryTesting" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.Cookies" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F01_TryTesting.trytesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.AE_TestCase" />
+    <configuration name="Cookies.cookieTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.TryTestingTestleri.*" />
@@ -82,15 +86,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.F01_TryTesting" />
-      <option name="METHOD_NAME" value="trytesti" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.Cookies" />
+      <option name="METHOD_NAME" value="cookieTesti" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F_S118.iFrameTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.AE_TestCase" />
+    <configuration name="F_WebTables.webTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.T127_SlaytTest.*" />
@@ -98,40 +102,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.T127_SlaytTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.T127_SlaytTest.F_S118" />
-      <option name="METHOD_NAME" value="iFrameTesti" />
+      <option name="MAIN_CLASS_NAME" value="tests.T127_SlaytTest.F_WebTables" />
+      <option name="METHOD_NAME" value="webTableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F_S119.iFrameTesti2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.AE_TestCase" />
+    <configuration name="To_Webtable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="tests.TryTestingTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.T127_SlaytTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.T127_SlaytTest.F_S119" />
-      <option name="METHOD_NAME" value="iFrameTesti2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.To_Webtable" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIframeUtilities.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.AE_TestCase" />
+    <configuration name="To_Webtable.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="tests.TryTestingTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.T127_SlaytTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.T127_SlaytTest.TestIframeUtilities" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.To_Webtable" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.F01_TryTesting" />
-        <item itemvalue="JUnit.F01_TryTesting.trytesti" />
-        <item itemvalue="JUnit.F_S118.iFrameTesti" />
-        <item itemvalue="JUnit.F_S119.iFrameTesti2" />
-        <item itemvalue="JUnit.TestIframeUtilities.test" />
+        <item itemvalue="JUnit.To_Webtable" />
+        <item itemvalue="JUnit.To_Webtable.test01" />
+        <item itemvalue="JUnit.Cookies.cookieTesti" />
+        <item itemvalue="JUnit.Cookies" />
+        <item itemvalue="JUnit.F_WebTables.webTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +160,22 @@
       <updated>1700891963559</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

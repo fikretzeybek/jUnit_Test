@@ -45,7 +45,7 @@ public class F_S119 extends TestBase {
         System.out.println("JMeter iframe " + ararnanIframeIndexi + ". sırada bulunuyor.");
         String jmeterLocater = "//img[@src='Jmeter720.png']";
         YardimciMetotlar.clickYap(driver, arananIframeSrc, jmeterLocater);
-        ReusableMethods.bekle(6);
+        ReusableMethods.bekle(3);
 
 
         driver.switchTo().defaultContent();
