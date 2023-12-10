@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fd4c330-443d-48d1-8ba2-a23105469b9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T127_SlaytTest/F_S119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AS_TestCase/TestCase01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AS_TestCase/TestCase01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,50 +60,16 @@
       <recent name="tests.T127_SlaytTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.To_Webtable">
-    <configuration name="Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.hghg.test01">
+    <configuration name="TestCase01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.AS_TestCase.TestCase01" />
       <module name="new" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.TryTestingTestleri.*" />
+          <option name="PATTERN" value="tests.AS_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.Cookies" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cookies.cookieTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.TryTestingTestleri.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.TryTestingTestleri" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryTestingTestleri.Cookies" />
-      <option name="METHOD_NAME" value="cookieTesti" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="F_WebTables.webTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.T127_SlaytTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.T127_SlaytTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.T127_SlaytTest.F_WebTables" />
-      <option name="METHOD_NAME" value="webTableTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,13 +105,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hghg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.AS_TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.AS_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="tests.AS_TestCase.hghg" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hghg.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.AS_TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.AS_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="tests.AS_TestCase.hghg" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hghg.test01" />
+        <item itemvalue="JUnit.hghg" />
+        <item itemvalue="Application.TestCase01" />
         <item itemvalue="JUnit.To_Webtable" />
         <item itemvalue="JUnit.To_Webtable.test01" />
-        <item itemvalue="JUnit.Cookies.cookieTesti" />
-        <item itemvalue="JUnit.Cookies" />
-        <item itemvalue="JUnit.F_WebTables.webTableTest" />
       </list>
     </recent_temporary>
   </component>

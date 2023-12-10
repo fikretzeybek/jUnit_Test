@@ -37,8 +37,8 @@ public class TestCase01 {
         } else System.out.println("New User Signup! görünürlük testi FAILED");
 
         // Enter name and email address
-        driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[2]")).sendKeys("ali");
-        driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("alim@ali.com");
+        driver.findElement(By.xpath("//*[@data-qa='signup-name']")).sendKeys("ali");
+        driver.findElement(By.xpath("//*[@data-qa='signup-email']")).sendKeys("alime@ali.com");
 
         // Click 'Signup' button
         driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/button")).click();
